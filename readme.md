@@ -1,4 +1,5 @@
-### Public Git Dataset Repository
+## pub-dataset
+Public small dataset repository
 
 #### Data set taxonomy:
 
