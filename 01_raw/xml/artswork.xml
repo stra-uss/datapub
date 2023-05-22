@@ -1,0 +1,149 @@
+<obras_de_arte>
+  <pinturas>
+    <autores>
+      <autor>
+          <codigo>AUT001</codigo>
+          <nome>Leonardo Da Vinci</nome>
+          <nacionalidade>Italiana</nacionalidade>
+          <obras>
+            <obra>
+                <titulo>Mona Lisa</titulo>
+                <ano>1503</ano>
+                <estilo>renascentista</estilo>
+                <exposicao>
+                  <museu>
+                    <nome>Louvre</nome>
+                    <salao>salao A</salao>
+                    <posicao>7AB52</posicao>
+                    <restauracao>
+                      <descricao>Revitalização</descricao>
+                      <custo_previsto>R$7.000</custo_previsto>
+                      <data_incio>20230501</data_incio>
+                      <data_fim>20230531</data_fim>
+                      <restaurador>
+                        <codigo>RES001</codigo>
+                        <nome>Oscar Niemayer</nome>
+                        <cpf>123.456.789-00</cpf>
+                        <salario>R$ 4.600</salario>
+                        <especialidade>Concreto Armado</especialidade>
+                      </restaurador>
+                      <materia_prima>
+                        <codigo>MAT001</codigo>
+                        <nome>Tinta cor azul</nome>
+                        <estoque>20 litros</estoque>
+                      </materia_prima>
+                      <materia_prima>
+                        <codigo>MAT002</codigo>
+                        <nome>Tinta cor verde</nome>
+                        <estoque>12 litros</estoque>
+                      </materia_prima>
+                      <materia_prima>
+                        <codigo>MAT012</codigo>
+                        <nome>Moldura em madeira de lei</nome>
+                        <estoque>7 metros</estoque>
+                      </materia_prima>
+                    </restauracao>
+                  </museu>
+                </exposicao>
+            </obra>
+            <obra>
+                <titulo>O homem vitruviano</titulo>
+                <ano>1490</ano>
+                <estilo>Proporcao aurea</estilo>
+                <exposicao>
+                  <museu>
+                    <nome>Louvre</nome>
+                    <salao>salao A</salao>
+                    <posicao>7AB52</posicao>
+                    <restauracao>
+                      <descricao>Revitalização</descricao>
+                      <custo_previsto>R$7.000</custo_previsto>
+                      <data_incio>20230501</data_incio>
+                      <data_fim>20230531</data_fim>
+                      <restaurador>
+                        <codigo>RES001</codigo>
+                        <nome>Oscar Niemayer</nome>
+                        <cpf>123.456.789-00</cpf>
+                        <salario>R$ 4.600</salario>
+                        <especialidade>Concreto Armado</especialidade>
+                      </restaurador>
+                      <materia_prima>
+                        <codigo>MAT000</codigo>
+                        <nome>Tinta cor branca</nome>
+                        <estoque>100 litros</estoque>
+                      </materia_prima>
+                      <materia_prima>
+                        <codigo>MAT009</codigo>
+                        <nome>Tinta cor beje</nome>
+                        <estoque>12 litros</estoque>
+                      </materia_prima>
+                      <materia_prima>
+                        <codigo>MAT007</codigo>
+                        <nome>Pregos</nome>
+                        <estoque>7000 unidades</estoque>
+                      </materia_prima>
+                      <materia_prima>
+                        <codigo>MAT012</codigo>
+                        <nome>Cola</nome>
+                        <estoque>14 mililitros</estoque>
+                      </materia_prima>
+                    </restauracao>
+                  </museu>
+                </exposicao>
+            </obra>
+          </obras>
+        </autor>
+        <autor>
+          <codigo>AUT002</codigo>
+          <nome>Rembrandt Harmenszoon van Rijn</nome>
+          <nacionalidade>Holandesa</nacionalidade>
+          <obras>
+            <obra>
+                <titulo>Auto-retrato como Apóstolo Paulo</titulo>
+                <ano>1661</ano>
+                <estilo>Gravura - auto retratos</estilo>
+                <exposicao>
+                  <museu>
+                    <nome>Museu Rembrandt</nome>
+                    <salao>salao B</salao>
+                    <posicao>12714162</posicao>
+                    <restauracao>
+                      <descricao>Revitalização</descricao>
+                      <custo_previsto>R$72.000</custo_previsto>
+                      <data_incio>20230501</data_incio>
+                      <data_fim>20230502</data_fim>
+                      <restaurador>
+                        <codigo>RES001</codigo>
+                        <nome>Mauricio de Souza</nome>
+                        <cpf>987.654.321-00</cpf>
+                        <salario>R$ 9.600</salario>
+                        <especialidade>Literatura Infantil</especialidade>
+                      </restaurador>
+                      <materia_prima>
+                        <codigo>MAT06</codigo>
+                        <nome>Tinta cor roxa</nome>
+                        <estoque>2 litros</estoque>
+                      </materia_prima>
+                      <materia_prima>
+                        <codigo>MAT002</codigo>
+                        <nome>Tinta cor verde</nome>
+                        <estoque>12 litros</estoque>
+                      </materia_prima>             
+                    </restauracao>
+                  </museu>
+                </exposicao>
+            </obra>
+          </obras>
+        </autor>
+    </autores>
+  </pinturas>
+  <esculturas>
+    <esc001>
+      <titulo>Mona Lisa</titulo>
+      <ano>1503</ano>
+      <autor>Leonardo Da Vinci</autor>
+      <material>ouro</material>
+      <peso>20kg</peso>
+    </esc001>
+  </esculturas>
+</obras_de_arte>
