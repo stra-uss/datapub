@@ -137,13 +137,94 @@
         </autor>
     </autores>
   </pinturas>
-  <esculturas>
-    <esc001>
-      <titulo>Mona Lisa</titulo>
-      <ano>1503</ano>
-      <autor>Leonardo Da Vinci</autor>
-      <material>ouro</material>
-      <peso>20kg</peso>
-    </esc001>
-  </esculturas>
+ <esculturas>
+    <autores>
+      <autor>
+        <codigo>AUT003</codigo>
+        <nome>Auguste Rodin</nome>
+        <nacionalidade>Francesa</nacionalidade>
+        <obras>
+          <obra>
+              <titulo>O Pensador</titulo>
+              <ano>1880</ano>
+              <peso>225 kg</peso>
+              <material>Bronze</material>
+              <exposicao>
+                <museu>
+                  <nome>Muse Rodin</nome>
+                  <salao>salao SB</salao>
+                  <posicao>12975</posicao>
+                  <restauracao>
+                    <descricao>Revitalização</descricao>
+                    <custo_previsto>R$27.000</custo_previsto>
+                    <data_incio>19940802</data_incio>
+                    <data_fim>19940812</data_fim>
+                    <restaurador>
+                      <codigo>RES003</codigo>
+                      <nome>Piaget</nome>
+                      <cpf>222.333.444-00</cpf>
+                      <salario>R$ 1.670</salario>
+                      <especialidade>Psicologo</especialidade>
+                    </restaurador>
+                    <materia_prima>
+                      <codigo>MAT065</codigo>
+                      <nome>Solda de Bronze</nome>
+                      <estoque>22 metros</estoque>
+                    </materia_prima>
+                    <materia_prima>
+                      <codigo>MAT099</codigo>
+                      <nome>Cadeira do diva</nome>
+                      <estoque>1 unidade</estoque>
+                    </materia_prima>                  
+                  </restauracao>
+                </museu>
+              </exposicao>
+          </obra>
+        </obras>
+      </autor>
+       <autor>
+        <codigo>AUT004</codigo>
+        <nome>Tutemes</nome>
+        <nacionalidade>Egipicia</nacionalidade>
+        <obras>
+          <obra>
+              <titulo>O busto de Nefertite</titulo>
+              <ano>1341 a.C.</ano>
+              <peso>1.4 kg</peso>
+              <material>Calcario e Ouro</material>
+              <exposicao>
+                <museu>
+                  <nome>Neues Museum, Staatliche Museen zu Berlin</nome>
+                  <salao>salao principal</salao>
+                  <posicao>1</posicao>
+                  <restauracao>
+                    <descricao>Pitura</descricao>
+                    <custo_previsto>R$ 7.000.000,00</custo_previsto>
+                    <data_incio>20161002</data_incio>
+                    <data_fim>20170212</data_fim>
+                    <restaurador>
+                      <codigo>RES004</codigo>
+                      <nome>Joao de Barro</nome>
+                      <cpf>555.666.777-00</cpf>
+                      <salario>R$ 10.000,00</salario>
+                      <especialidade>Construtor</especialidade>
+                    </restaurador>
+                    <materia_prima>
+                      <codigo>MAT100</codigo>
+                      <nome>Ouro</nome>
+                      <estoque>2 oncas</estoque>
+                    </materia_prima>
+                    <materia_prima>
+                      <codigo>MAT102</codigo>
+                      <nome>Calcario</nome>
+                      <estoque>1 KG</estoque>
+                    </materia_prima>                  
+                  </restauracao>
+                </museu>
+              </exposicao>
+          </obra>
+        </obras>
+      </autor>
+    </autores>
+  </esculturas>  
 </obras_de_arte>
